@@ -1,6 +1,11 @@
 # Propuesta de Mejora de UX: Gestión de Cola en Spotify
 
-Este proyecto es una demostración interactiva creada para un taller de **Ingeniería de Software 2**. Su objetivo es identificar un problema común de experiencia de usuario (UX) en la aplicación de Spotify y proponer una solución de diseño concreta y funcional.
+Este proyecto es una demostración interactiva creada para el talle de clase de **Ingeniería de Software 2**. Su objetivo es identificar un problema común de experiencia de usuario (UX) en la aplicación de Spotify y proponer una solución de diseño concreta y funcional.
+
+##Autor:
+Bryan Arias Rios
+##Asignatura:
+Ingeniería de software 2
 
 ## 🚀 El Desafío: Un Problema Común de UX
 
@@ -49,6 +54,8 @@ El código está organizado de manera modular para facilitar su comprensión y m
 ├── index.html          # Archivo HTML raíz
 └── types.ts            # Definiciones de tipos de TypeScript (interfaces)
 ```
+
+
 
 ## 📄 Licencia
 
