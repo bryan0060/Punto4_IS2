@@ -1,31 +1,34 @@
 # Propuesta de Mejora de UX: Gestión de Cola en Spotify
 
-Este proyecto es una demostración interactiva creada para el taller de clase de **Ingeniería de Software 2** punto 4. Su objetivo es identificar un problema común de experiencia de usuario (UX) en la aplicación de Spotify y proponer una solución de diseño concreta y funcional.
-
+Este proyecto es una demostración interactiva creada para un taller de **Ingeniería de Software 2** punto 4. A continuación se detalla el análisis y la solución propuesta, junto con los detalles técnicos del prototipo.
 ## Autor:
- Bryan Arias Rios
+Bryan Arias Rios
 ## Asignatura:
 Ingeniería de software 2
 
-## 🚀 El Desafío: Un Problema Común de UX
+## **[➡️ Ver la demostración interactiva desplegada aquí](https://punto4-is-2.vercel.app/)**
 
+---
+
+### **Aplicación elegida:**
+Spotify
+
+### **Problema de UX:**
 Una frustración recurrente al usar Spotify es la gestión de la **"Cola de reproducción"**. Al seleccionar una nueva canción mientras se escucha una playlist, la acción predeterminada interrumpe y reemplaza la cola actual sin una advertencia clara. Esto provoca que el usuario pierda su sesión de escucha de forma accidental, lo cual es especialmente molesto si había preparado una secuencia específica de canciones.
 
-## ✨ La Solución Propuesta
+### **Solución de UX:**
+Se propone que, al intentar reproducir una nueva canción cuando ya hay una cola activa, la aplicación presente un **diálogo modal no intrusivo**. Este diálogo ofrece al usuario opciones claras y directas:
 
-Para resolver este problema, se propone una solución de diseño que empodera al usuario, dándole control total sobre sus acciones.
+1.  **Añadir a la cola:** Agrega la canción al final de la cola actual, sin interrumpir la música.
+2.  **Reproducir a continuación:** Inserta la canción justo después de la que se está reproduciendo.
+3.  **Limpiar y reproducir:** Reemplaza la cola actual con la nueva canción, pero solo después de que el usuario lo confirme explícitamente.
 
-Al intentar reproducir una nueva canción cuando ya hay una cola activa, la aplicación presenta un **diálogo modal no intrusivo**. Este diálogo ofrece al usuario opciones claras y directas:
+### **Justificación:**
+"Esta solución mejora la experiencia al dar al usuario un control explícito sobre la cola de reproducción, evitando interrupciones accidentales y haciendo la gestión de la música más intuitiva."
 
-1.  **✅ Añadir a la cola (Acción principal):** Agrega la canción al final de la cola actual, sin interrumpir la música.
-2.  **▶️ Reproducir a continuación (Acción secundaria):** Inserta la canción justo después de la que se está reproduciendo.
-3.  **🗑️ Limpiar y reproducir (Acción explícita):** Reemplaza la cola actual con la nueva canción, pero solo después de que el usuario lo confirme explícitamente.
-
-> **Justificación:** *Esta solución mejora la experiencia al dar al usuario un control explícito sobre la cola de reproducción, evitando interrupciones accidentales y haciendo la gestión de la música más intuitiva.*
+---
 
 ## 🕹️ Demostración Interactiva
-
-**Puedes probar la aplicación desplegada aquí: [https://punto4-is-2.vercel.app/](https://punto4-is-2.vercel.app/)**
 
 Este repositorio contiene una aplicación web funcional que simula la solución propuesta.
 
@@ -54,9 +57,3 @@ El código está organizado de manera modular para facilitar su comprensión y m
 ├── index.html          # Archivo HTML raíz
 └── types.ts            # Definiciones de tipos de TypeScript (interfaces)
 ```
-
-
-
-## 📄 Licencia
-
-Este proyecto se distribuye bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
